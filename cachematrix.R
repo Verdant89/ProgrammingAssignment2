@@ -27,7 +27,6 @@ makeCacheMatrix(4)
 #This function returns the cached inverted matrix if it has already been solved
 #Otherwise, it computes the inverted matrix
 
-cacheSolve <- function(x, ...) {
        cacheSolve <- function(x){
       
       if(!is.null(inverse)) {       #retrieves inverted matrix if it already exists
